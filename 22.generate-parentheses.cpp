@@ -1,8 +1,8 @@
-// #include <iostream>
-// #include <vector>
-// #include <string>
+#include <iostream>
+#include <vector>
+#include <string>
 
-// using namespace std;
+using namespace std;
 class Solution {
 public:
     vector<string> output;
@@ -23,7 +23,7 @@ public:
     }
 };
 
-// int main(){
-//     Solution S;
-//     for (auto e : S.generateParenthesis(4)) cout<<e<<endl;
-// }
+int main(){
+    Solution S;
+    for (auto e : S.generateParenthesis(4)) cout<<e<<endl;
+}
